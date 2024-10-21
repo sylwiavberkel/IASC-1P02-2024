@@ -3,11 +3,11 @@ body{
 }
 h1 {
   color: salmon;
-  font-size: 70px;
+  font-size: 100px;
 }
 
 div {
   height: 200px;
   width: 50%;
-  background-color: grey;
+  background-color: lavenderblush;
 }
