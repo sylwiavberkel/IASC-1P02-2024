@@ -2,10 +2,11 @@ body{
   background-color:pink;
 }
 h1 {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  top: 80px;
   right: 0;
-  width: 300px;
+  width: 200px;
+  height: 100px;
   border: 3px solid #ff00a7;
 
   color: salmon;
@@ -14,15 +15,14 @@ h1 {
 }
 
 h2 {
-  position: absolute;
-  top: 80px;
+  position: fixed;
+  bottom: 0;
   right: 0;
-  width: 200px;
-  height: 100px;
+  width: 300px;
   border: 3px solid #ff00a7;
 
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   font-style: italic;
   font-weight: bolder;
 
