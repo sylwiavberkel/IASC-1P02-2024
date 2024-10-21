@@ -25,8 +25,11 @@ h2 {
 
 div {
   height: 200px;
-  width: 50%;
   background-color: lightpink;
+  width: 300px;
+  border: 15px violet;
+  padding: 50px;
+  margin: 20px;
 }
 #box1 {
   position: relative;
