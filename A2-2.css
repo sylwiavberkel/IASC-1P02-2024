@@ -2,12 +2,24 @@ body{
   background-color:pink;
 }
 h1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #ff00a7;
+
   color: salmon;
   font-size: 100px;
   font-family: "Lucida Handwriting", cursive;
 }
 
 h2 {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #ff00a7;
 
   color: white;
   font-size: 40px;
@@ -17,6 +29,9 @@ h2 {
 }
 
 div {
+  position: relative;
+  left: 30px;
+  border: 3px solid #ff00a7;
 
   height: 200px;
   width: 50%;
@@ -36,28 +51,4 @@ p {
   color: white;
   font-size: 20px;
 
-}
-
-div.relative {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
-}
-
-div.absolute {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
-}
-
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  border: 3px solid #73AD21;
 }
