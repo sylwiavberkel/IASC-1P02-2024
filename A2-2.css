@@ -17,14 +17,22 @@ h2 {
 }
 
 div {
+
   height: 200px;
   width: 50%;
-  background-color: lavenderblush;
+  background-color: lightpink;
+
+}
+
+h3 {
+
+  color: salmon;
+  font-size: 20px;
 }
 
 p {
-  color: black;
-  font-size: 30px;
 
+  color: white;
+  font-size: 10px;
 
 }
