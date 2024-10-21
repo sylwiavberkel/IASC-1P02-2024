@@ -4,3 +4,8 @@ body{
 h1 {
   color: salmon;
 }
+div {
+  height: 200px;
+  width: 50%;
+  background-color: grey;
+}
