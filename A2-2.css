@@ -39,7 +39,7 @@ div {
 
 #box2 {
   position: absolute;
-  top: 2800px;
+  bottom: 500px
   right: 20;
   width: 200px;
   height: 100px;
