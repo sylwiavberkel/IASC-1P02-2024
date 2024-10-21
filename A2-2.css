@@ -21,13 +21,13 @@ h2 {
 
 }
 
-<h4 class="center">Black and center-aligned heading</h4>
+<h4> class="center">Black and center-aligned heading</h4>
 
 div {
   height: 200px;
   background-color: lightpink;
   width: 300px;
-  border: 15px violet;
+  border: 15px white;
   padding: 50px;
   margin: 20px;
 }
